@@ -1,0 +1,35 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>APOD</title>
+</head>
+<body>
+    <div style="display: flex; align-items: center; justify-content: center;">
+        <span class="material-icons md-48 moon">dark_mode</span>
+        <button class="switch" id="switch" onclick="DarkMode()">
+            <span class="slider round"></span>
+        </button>
+        <!-- <button class="material-icons">dark_mode</button> -->
+    </div>
+    <!-- header -->
+    <div>
+        <h1>Nasa's Astronomy Picture of the Day</h1>
+        <h3 id="date"></h4>
+        <h2 id="title"></h1>
+    </div>
+    <!-- image -->
+    <div>
+        <img id="image" src="" alt="">
+    </div>
+    <!-- explanation -->
+    <div>
+        <h2>Explanation:</h3>
+        <p id="explanation"></p>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
