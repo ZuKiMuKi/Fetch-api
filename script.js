@@ -1,5 +1,5 @@
 //fetching nasa api
-const API_KEY = 'APB8fZGSFJNsgaIxWeVfIcLKGlEmr8wHgW9a3zof'; //register api key at https://api.nasa.gov/#signUp
+const API_KEY = 'DEMO_KEY'; //register api key at https://api.nasa.gov/#signUp
 const API_URL = `https://api.nasa.gov/planetary/apod?api_key=${API_KEY}`;
 
 var APOD_Data;
