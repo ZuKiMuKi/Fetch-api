@@ -7,6 +7,7 @@ const Title = document.getElementById('title');
 const CurrentDate = document.getElementById('date');
 const Explanation = document.getElementById('explanation');
 const Image = document.getElementById('image');
+const ImageURL = document.getElementById('link');
 
 //call function on start
 GetAPOD().then(data => {
@@ -20,6 +21,7 @@ function DisplayData(apod){
     CurrentDate.innerHTML = apod.date;
     Explanation.innerHTML = apod.explanation;
     Image.src = apod.url;
+    ImageURL.href = apod.hdurl;
     console.log(apod);
 }
 
