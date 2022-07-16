@@ -3,6 +3,10 @@
     --background: #f5f5f5;
     --text: #474747;
 }
+img{
+    max-width: 100%;
+    height: auto;
+}
 .light{
     transition: 0.4s ease-in-out;
     --background: #f5f5f5;
